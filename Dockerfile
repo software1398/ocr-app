@@ -8,4 +8,5 @@ COPY . .
 
 EXPOSE 80
 ENTRYPOINT ["python"]
+CMD ["ocr_mlp.py"]
 CMD ["server.py"]
