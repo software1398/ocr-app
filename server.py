@@ -19,7 +19,6 @@ def healthCheck():
 @app.route("/image", methods=['POST'])
 def get_result():
     if request.method == "POST":
-        width, height = 28, 28
         try:
             source = request.form['source']
 

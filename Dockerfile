@@ -1,7 +1,7 @@
 FROM tensorflow/tensorflow:latest-gpu
 
-RUN mkdir -p $HOME/.keras-ocr && ( \
-    cd $HOME/.keras-ocr && \
+RUN mkdir -p ~/.keras-ocr && ( \
+    cd ~/.keras-ocr && \
     curl -L -o craft_mlt_25k.h5 https://github.com/faustomorales/keras-ocr/releases/download/v0.8.4/craft_mlt_25k.h5 && \
     curl -L -o crnn_kurapan.h5 https://github.com/faustomorales/keras-ocr/releases/download/v0.8.4/crnn_kurapan.h5 \
     )
