@@ -22,7 +22,7 @@ def get_result():
         try:
             source = request.form['source']
 
-            result = pred(source)
+            result = source
         except Exception as e:
             print("error : %s" % e)
             return Response("fail", status=400)
