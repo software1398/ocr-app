@@ -8,10 +8,10 @@ This orc-mlp code snippet derived from [Keras team](https://github.com/keras-tea
 
 ## How to install thru Docker
 ```sh
-docker build -t ocr-mlp .
+docker build -t ocr-app .
 ```
 
 ## How to run thru Docker
 ```sh
-docker run -it ocr-mlp
+docker run -it ocr-app
 ```
